@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "decaled";
+    src: url("../fonts/decaledscript.ttf") format("opentype")
+  }
+
+@font-face {
+  font-family: "majorMono";
+  src: url("../fonts/MajorMonoDisplay-Regular.ttf") format("opentype")
+}
+
+* {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    box-sizing: inherit;
+}
+
+label,
+img,
+audio,
+video,
+canvas,
+meter,
+progress,
+svg,
+iframe {
+    display: block;
+}
+
+button {
+    font-size: inherit;
+    cursor: pointer;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    padding: 0;
+}
+
+body {
+    margin: 4em;
+    line-height: 1.5em;
+    font-family: "majorMono";
+    color: #F4F4F4;
+    background-image: linear-gradient(#1B406F, #242444 40%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.l-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 0;
+    max-height: 100vh;
+}
+
+.l-main .l-section {
+    height: 100vh;
+}
+
+.l-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0;
+}
+
+nav {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: "decaled";
+    font-size: 5em;
+    margin: .5em 0;
+}
+
+h2 {
+    font-family: "decaled";
+    font-size: 3em;
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+blockquote {
+    font-size: .75em;
+    font-weight: 900;
+}
+
+.l-section article {
+    margin: 1em 0;
+}
+
+.l-section article p {
+    margin: 0 auto;
+    width: 50%;
+    font-size: .75em;
+}
+
+.l-section article .price {
+    font-weight: 900;
+}
+
+.e-jellyfish {
+    border-style: none;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    width: 28%;
+    height: auto;
+}
+
+#head {
+    transform: scale(0.9);
+    animation: pulse 4s infinite both;
+    transform-origin: center;
+}
+
+#tentacles_1, #tentacles_2, #tentacles_3, #tentacles_4, #big_tentacles {
+    transform: translateY(1%);
+    animation: movey 4s infinite both;
+    transform-origin: center;
+    mix-blend-mode: screen;
+}
+
+/* #tentacles_1 {
+    transform: translateX(1%);
+    animation: movex1 4s infinite both;
+    transform-origin: center;
+}
+
+#tentacles_4 {
+    transform: translateX(1.5%);
+    animation: movex4 4s infinite both;
+    transform-origin: center;
+}
+
+#tentacles_2{
+    transform: translateX(-1%);
+    animation: movex2 4s infinite both;
+    transform-origin: center;
+}
+
+#tentacles_3{
+    transform: translateX(-1.5%);
+    animation: movex2 4s infinite both;
+    transform-origin: center;
+} */
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.9); 
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes movey {
+    0%, 100% {
+        transform: scale(0.9) translateY(1%); 
+    }
+
+    50% {
+        transform: scale(1) translateY(-1%);
+    }
+}
+
+/* @keyframes movex1 {
+    0%, 100% {
+        transform: translateX(1%); 
+    }
+
+    50% {
+        transform: translateX(-1%);
+    }
+}
+
+@keyframes movex2 {
+    0%, 100% {
+        transform: translateX(-1%); 
+    }
+
+    50% {
+        transform: translateX(1%);
+    }
+}
+
+@keyframes movex3 {
+    0%, 100% {
+        transform: translateX(-1.5%); 
+    }
+
+    50% {
+        transform: translateX(1%);
+    }
+}
+
+@keyframes movex4 {
+    0%, 100% {
+        transform: translateX(-1%); 
+    }
+
+    50% {
+        transform: translateX(1%);
+    }
+} */
