@@ -97,6 +97,10 @@
             xlink:href="#Naamloos_verloop_360" />
         <linearGradient id="Naamloos_verloop_360-3" x1="750.5" y1="756" x2="750.5" y2="192" xlink:href="#Naamloos_verloop_360" />
         <linearGradient id="Naamloos_verloop_360-4" x1="97.76" y1="398" x2="1402.95" y2="398" xlink:href="#Naamloos_verloop_360" />
+        <linearGradient id="pink-orange" x1="474" y1="1335.19" x2="798" y2="1335.19" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e95c00" />
+            <stop offset="1" stop-color="#f02366" />
+        </linearGradient>
     </defs>
     <title>jelly</title>
     <g class="cls-1">

@@ -1,0 +1,46 @@
+.l-nav .nav-item a:hover {
+    color: rgb(255, 198, 166);
+    transition: 100ms ease-in-out;
+}
+
+.l-nav .nav-item a:active {
+    color: rgb(255, 94, 0);
+    transition: 100ms ease-in-out;
+}
+
+.l-column article:hover {
+    color: rgb(167, 205, 255);
+    text-shadow: 2px 1px #eb3672;
+    transform: rotate(0) scale(1.2);
+    transition: 300ms ease-in-out;
+}
+
+@keyframes screen {
+    0%, 100% {
+        transform: translateX(0); 
+    }
+
+    50% {
+        transform: translateX(-20%);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.9); 
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes movey {
+    0%, 100% {
+        transform: scale(0.9) translateY(1%); 
+    }
+
+    50% {
+        transform: scale(1) translateY(-1%);
+    }
+}

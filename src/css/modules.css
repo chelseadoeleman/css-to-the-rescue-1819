@@ -1,0 +1,61 @@
+#head {
+    transform: scale(0.9);
+    animation: pulse 4s infinite both;
+    transform-origin: center;
+}
+
+#tentacles_1, #tentacles_2, #tentacles_3, #tentacles_4, #big_tentacles {
+    transform: translateY(1%);
+    animation: movey 4s infinite both;
+    transform-origin: center;
+    mix-blend-mode: screen;
+}
+
+h1 {
+    color: rgb(167, 205, 255);
+    text-shadow: 10px 3px #eb3672;
+}
+
+h2 {
+    color: rgb(167, 205, 255);
+    text-shadow: 5px 2px #eb3672;
+}
+
+a {
+    color: rgb(167, 205, 255);
+    text-shadow: 2px 1px #eb3672;
+    font-weight: 800;
+}
+
+.l-column article .price {
+    font-weight: 900;
+}
+
+.l-column article p {
+    margin: 0 auto;
+    width: 50%;
+    font-size: .75em;
+}
+
+.l-nav .nav-item:nth-child(odd) {
+    margin-top: 1em;
+}
+
+.l-jellyfish {
+    transform: rotate(var(--wind-jelly-rotation));
+}
+
+.l-column article {
+    margin: 1em 0;
+    transform: skewX(var(--wind-rotation));
+}
+
+.jelly {
+    transform: translateX(0);
+    animation: screen 15s infinite both;
+}
+
+.l-column .type-course p, blockquote {
+    color: rgb(167, 205, 255);
+    text-shadow: 2px 1px #eb3672;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "decaled";
+    src: url("../fonts/decaledscript.ttf") format("opentype")
+  }
+
+@font-face {
+  font-family: "majorMono";
+  src: url("../fonts/MajorMonoDisplay-Regular.ttf") format("opentype")
+}

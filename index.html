@@ -4,44 +4,37 @@
 	<meta charset="utf-8" />
 	<title>Menu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="./src/css/style.css">
+	<link rel="stylesheet" href="./src/css/base.css">
 </head>
 <body>
 
-<header class="l-title">
+<header class="l-header">
 	<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
 	<p>
 		appetizing since 1924
 	</p>
-
-	<nav>
-		<ul>
-			<li><a href="/#starters">Starters</a></li>
-			<li><a href="/#soup">Soup</a></li>
-			<li><a href="/#maincourse">Maincourse</a></li>
-			<li><a href="/#salads">Salads</a></li>
-			<li><a href="/#sweet">Sweet</a></li>
-		</ul>
-	</nav>
 </header>
+
+<nav class="l-sticky-nav">
+	<ul class="l-nav">
+		<li class="nav-item"><a href="/#starters">Starters</a></li>
+		<li class="nav-item"><a href="/#soup">Soup</a></li>
+		<li class="nav-item"><a href="/#maincourse">Maincourse</a></li>
+		<li class="nav-item"><a href="/#salads">Salads</a></li>
+		<li class="nav-item"><a href="/#sweet">Sweet</a></li>
+	</ul>
+</nav>
 
 <main class="l-main">
 
-	<section  id="starters" class="l-section">
-		<header>
+	<section  id="starters" class="l-column">
+		
+		<header class="type-course">
 			<h2>Starters</h2>
 			<p>
 				small dishes
 			</p>
 		</header>
-
-		<article>
-			<h3>Russ &amp;  Daughters Knishes</h3>
-			<p>
-				potato, carmelized onion, mustard
-			</p>
-			<div class="price">6</div>
-		</article>
 
 		<article>
 			<h3>Hot Smoke/Cold Smoke</h3>
@@ -87,8 +80,11 @@
 
 
 
-	<section  id="soup" class="l-section">
-		<h2>Soup</h2>
+	<section  id="soup" class="l-column">
+
+		<header class="type-course">
+			<h2>Soup</h2>
+		</header>
 
 		<article>
 			<h3>Matzo Ball</h3>
@@ -125,9 +121,9 @@
 
 
 
-	<section id="maincourse" class="l-section">
+	<section id="maincourse" class="l-column">
 
-		<header>
+		<header class="type-course">
 			<h2>Maincourse</h2>
 			<p>
 				To be shared
@@ -172,9 +168,11 @@
 
 
 
-	<section id="salads" class="l-section">
+	<section id="salads" class="l-column">
 
-		<h2>Salads</h2>
+		<header class="type-course">
+			<h2>Salads</h2>
+		</header>
 
 		<article>
 			<h3>Mixed Green<div class="price"></ddiv></h3>
@@ -203,18 +201,21 @@
 
 
 
-	<section id="sweet" class="l-section">
-		<h2>Sweet</h2>
+	<section id="sweet" class="l-column">
 
-		<blockquote>
-			<p>
-				"A moltsayt on a tsimes iz via a mayse on a moshl."
-			</p>
-			<p>
-				A meal without a sweet dish is like a story without a moral.
-			</p>
-			<cite>— Yiddish idiom</cite>
-		</blockquote>
+		<header class="type-course">
+			<h2>Sweet</h2>
+
+			<blockquote id="quote">
+				<p>
+					"A moltsayt on a tsimes iz via a mayse on a moshl."
+				</p>
+				<p>
+					A meal without a sweet dish is like a story without a moral.
+				</p>
+				<cite>— Yiddish idiom</cite>
+			</blockquote>
+		</header>
 
 		<article>
 			<h3>Babka french toast</h3>
@@ -260,9 +261,9 @@
 
 </main>
 
-<div class="e-jellyfish">
+<div class="l-jellyfish">
 
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1404 2861">
+	<svg class="jelly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1404 2861">
     <defs>
         <style>
             .cls-1 {
@@ -338,7 +339,11 @@
             .cls-17 {
                 fill: url(#Naamloos_verloop_360-4);
             }
-        </style>
+		</style>
+		<linearGradient id="pink-orange" x1="474" y1="1335.19" x2="798" y2="1335.19" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#e95c00" />
+			<stop offset="1" stop-color="#f02366" />
+		</linearGradient>
         <linearGradient id="Naamloos_verloop_360" x1="474" y1="1335.19" x2="798" y2="1335.19" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#7c00ff" />
             <stop offset="0.19" stop-color="#8f06e5" />
@@ -424,6 +429,6 @@
 </footer>
 
 <!-- HTML taken and adjusted from https://codepen.io/julesforrest/pen/VqXvgQ -->
-
+<script src="src/js/index.js"></script>
 </body>
 </html>
