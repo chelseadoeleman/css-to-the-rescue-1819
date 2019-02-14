@@ -1,10 +1,11 @@
 .l-header {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 4em auto;
     justify-content: center;
     align-items: center;
     max-height: 100vh;
+    margin-bottom: 10em;
 }
 
 
@@ -28,15 +29,14 @@
 .l-sticky-nav {
     display: flex;
     justify-content: center;
-    margin: 2em;
+    margin-top: 3em;
     position: sticky;
     top: 2em;
     z-index: 2;
 }
 
 .l-nav {
-    list-style: none;
-    width: 75%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -48,6 +48,26 @@
     bottom: 0;
     left: 30%;
     z-index: -1;
-    width: 28%;
+    width: 26%;
+    height: auto;
+}
+
+.l-coral {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.l-fish {
+    position: absolute;
+    border-style: none;
+    bottom: 2em;
+    left:-5em;
+    z-index: -1;
+    width: 10%;
     height: auto;
 }

@@ -1,5 +1,5 @@
 .l-nav .nav-item a:hover {
-    color: rgb(255, 198, 166);
+    color: rgb(255, 196, 0);
     transition: 100ms ease-in-out;
 }
 
@@ -21,7 +21,7 @@
     }
 
     50% {
-        transform: translateX(-20%);
+        transform: translateX(-60%);
     }
 }
 
@@ -32,6 +32,26 @@
 
     50% {
         transform: scale(1);
+    }
+}
+
+@keyframes plant {
+    0%, 100% {
+        transform: skewX(2deg); 
+    }
+
+    50% {
+        transform: skewX (calc(var(--wind-rotation))-2deg);
+    }
+}
+
+@keyframes swim {
+    0% {
+        transform: translateX(0%); 
+    }
+
+    100% {
+        transform: translateX(100%);
     }
 }
 

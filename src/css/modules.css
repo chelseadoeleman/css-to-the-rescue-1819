@@ -13,12 +13,12 @@
 
 h1 {
     color: rgb(167, 205, 255);
-    text-shadow: 10px 3px #eb3672;
+    text-shadow: 10px 3px 20px #db336b;
 }
 
 h2 {
     color: rgb(167, 205, 255);
-    text-shadow: 5px 2px #eb3672;
+    text-shadow: 5px 2px 20px #db336b;
 }
 
 a {
@@ -46,6 +46,7 @@ a {
 }
 
 .l-column article {
+    padding: 0 2em;
     margin: 1em 0;
     transform: skewX(var(--wind-rotation));
 }
@@ -58,4 +59,26 @@ a {
 .l-column .type-course p, blockquote {
     color: rgb(167, 205, 255);
     text-shadow: 2px 1px #eb3672;
+}
+
+footer {
+    position: relative;
+}
+
+.address-column {
+    position: absolute;
+    bottom: 2em;
+    z-index: 2;
+}
+
+#plant1, #plant2 {
+    transform: skewX(var(--wind-rotation));
+    animation: plant 4s infinite both;
+    transform-origin: center;
+}
+
+.l-fish {
+    transform: translateX(100%);
+    animation: swim 7s infinite both;
+    transform-origin: center;
 }

@@ -33,7 +33,6 @@ body {
     line-height: 1.5em;
     color: #F4F4F4;
     background-image: linear-gradient(#1B406F, #242444 20%);
-    margin: 4em;
     overflow-x: hidden;
 }
 
@@ -56,6 +55,10 @@ blockquote {
     font-weight: 900;
 }
 
+ul{
+    list-style: none;
+}
+
 h1 {
     font-family: "decaled";
     font-size: 7em;
@@ -76,6 +79,10 @@ h3 {
 
 a {
     text-decoration: none;
+}
+
+footer {
+    margin: 0;
 }
 
 
