@@ -61,10 +61,6 @@ a {
     text-shadow: 2px 1px #eb3672;
 }
 
-footer {
-    position: relative;
-}
-
 .address-column {
     position: absolute;
     bottom: 2em;
@@ -78,7 +74,9 @@ footer {
 }
 
 .l-fish {
+    position: sticky;
+    bottom: 5em;
     transform: translateX(100%);
-    animation: swim 7s infinite both;
+    animation: swim 15s infinite both;
     transform-origin: center;
 }

@@ -1,7 +1,7 @@
 .l-header {
     display: flex;
     flex-direction: column;
-    margin: 4em auto;
+    margin: 15em auto;
     justify-content: center;
     align-items: center;
     max-height: 100vh;
@@ -67,7 +67,25 @@
     border-style: none;
     bottom: 2em;
     left:-5em;
-    z-index: -1;
+    z-index: 0;
     width: 10%;
     height: auto;
+}
+
+footer {
+    position: relative;
+}
+
+.quote-wrapper {
+    position: absolute;
+    left: 35%;
+    bottom: 10em;
+    z-index: 2;
+}
+
+.quote {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    width: 400%;
 }
