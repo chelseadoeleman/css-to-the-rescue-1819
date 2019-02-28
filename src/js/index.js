@@ -1,5 +1,5 @@
 const root = document.documentElement
-const url = 'https://api.darksky.net/forecast/90e50f9ccbfeb39737bdb4f2d1175e2d/52.370216,4.895168'
+const url = 'https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/90e50f9ccbfeb39737bdb4f2d1175e2d/52.370216,4.895168'
 
 ;(async() => { 
     try {
