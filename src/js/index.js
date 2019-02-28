@@ -12,7 +12,7 @@ const url = 'https://api.darksky.net/forecast/90e50f9ccbfeb39737bdb4f2d1175e2d/5
         root.style.setProperty('--wind-jelly-rotation', wind["wind-direction"] + "deg")
         root.style.setProperty('--wind-rotation', ((wind["wind-direction"] / 100) * 5 ) + "deg")
         console.log(wind)
-
+  
     } catch (error) {
         console.error(error)
         throw new Error(error)

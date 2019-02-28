@@ -69,8 +69,21 @@ a:focus {
 
 .address-column {
     position: absolute;
+    padding: 4em 5em;
+    padding-bottom: 2em;
     bottom: 2em;
     z-index: 2;
+    transition: all .5s ease-in;
+}
+
+.shell {
+    opacity: 0;
+    width: 5%;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    z-index: 3;
+    transition: opacity .5s ease-in;
 }
 
 #plant1, #plant2 {
@@ -127,6 +140,5 @@ a:focus {
   margin-top: 0.1em;
   margin-left: 0.3em;
   fill: rgb(219, 51, 107);
-  /* box-shadow: 5px 0px 28px -9px rgba(0, 0, 0, 0.75); */
   transition: transform 0.2s ease-in;
 }

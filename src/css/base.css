@@ -2,12 +2,10 @@
 @import 'layout.css';
 @import 'modules.css';
 @import 'states.css';
-@import 'themes.css';
-@import 'variables.css';
 
 :root {
-    --var-wind-rotation: 0;
-    --var-wind-rotation: 0;
+    --var-wind-jelly-rotation: 180deg;
+    --var-wind-rotation: 180deg;
 }
 
 * {
