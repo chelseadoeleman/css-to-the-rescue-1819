@@ -27,6 +27,11 @@ a {
     font-weight: 800;
 }
 
+a:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(167, 205, 255);
+}
+
 .l-column article .price {
     font-weight: 900;
 }
@@ -52,6 +57,7 @@ a {
 }
 
 .jelly {
+    will-change: transform;
     transform: translateX(0);
     animation: screen 15s infinite both;
 }
@@ -68,6 +74,7 @@ a {
 }
 
 #plant1, #plant2 {
+    will-change: transform;
     transform: skewX(var(--wind-rotation));
     animation: plant 4s infinite both;
     transform-origin: center;
@@ -79,4 +86,47 @@ a {
     transform: translateX(100%);
     animation: swim 15s infinite both;
     transform-origin: center;
+}
+
+/* https://eddyerburgh.me/create-a-css-only-flip-toggle-switch */
+
+.switch {
+    position: sticky;
+    top: 2em;
+    opacity: 0;
+  }
+
+.switch-name {
+    position: sticky;
+    top: 2.5em;
+    left: 2em;
+}
+
+.switch:focus + .toggle{
+    border: 1px solid rgba(167, 205, 255, 0.5);
+}
+
+.toggle {
+    display: inline-block;
+    background: rgb(17, 24, 48);
+    width: 4em;
+    height: 2em;
+    border-radius: 1em;
+    position: sticky;
+    top: 2em;
+    cursor: pointer;
+    background: rgb(17, 24, 48);
+    z-index: 5;
+}
+
+.round {
+  position: absolute;
+  width: 1.8em;
+  height: 1.8em;
+  margin-bottom: 0.3em;
+  margin-top: 0.1em;
+  margin-left: 0.3em;
+  fill: rgb(219, 51, 107);
+  /* box-shadow: 5px 0px 28px -9px rgba(0, 0, 0, 0.75); */
+  transition: transform 0.2s ease-in;
 }
