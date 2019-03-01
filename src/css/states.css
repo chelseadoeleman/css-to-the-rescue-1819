@@ -74,6 +74,11 @@
     text-shadow: 2px 1px #eb3672;
 }
 
+.switch:checked ~ footer .address-column:hover {
+    color: rgb(255, 166, 107);
+    text-shadow:#eb3672;
+}
+
 
 
 .switch:checked ~ .l-jellyfish #big_tentacles > .cls-2 {
