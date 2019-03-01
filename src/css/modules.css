@@ -68,12 +68,14 @@ a:focus {
 }
 
 .address-column {
-    transition: all .5s ease-in;
+    transition: all .2s;
+    transition-timing-function: cubic-bezier(.29,.74,.95,.42);
 }
 
 .shell {
     opacity: 0;
-    transition: opacity .5s ease-in;
+    transition: opacity .2s;
+    transition-timing-function: cubic-bezier(.29,.74,.95,.42);
 }
 
 #plant1, #plant2 {
