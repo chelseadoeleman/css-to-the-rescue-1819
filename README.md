@@ -6,6 +6,8 @@
 
 ![Front-page](./docs/orange.png)
 
+![Front-page](./docs/text.png)
+
 ## Concept
 
 I wanted to create an interactive restaurant menu that mostly consisted of seafood. The page couldn't contain regular shapes so I decided to make my main shape a jellyfish. Just because I think they're pretty cool. Another restriction was that the menu had to be based on the weather, so I choose the wind-direction of Amsterdam to show how my page reacts to the weather. 
