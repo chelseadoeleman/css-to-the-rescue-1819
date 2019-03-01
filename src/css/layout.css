@@ -89,3 +89,37 @@ footer {
     border-style: none;
     width: 400%;
 }
+
+.l-fish {
+    position: sticky;
+    bottom: 5em;
+}
+
+.address-column {
+    position: absolute;
+    padding: 4em 5em;
+    padding-bottom: 2em;
+    bottom: 2em;
+    z-index: 2;
+    transition: all .5s ease-in;
+}
+
+.shell {
+    width: 5%;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    z-index: 3;
+}
+
+.switch {
+    position: sticky;
+    top: 2em;
+    opacity: 0;
+  }
+
+.switch-name {
+    position: sticky;
+    top: 2.5em;
+    left: 2em;
+}

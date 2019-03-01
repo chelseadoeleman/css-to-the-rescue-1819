@@ -68,21 +68,11 @@ a:focus {
 }
 
 .address-column {
-    position: absolute;
-    padding: 4em 5em;
-    padding-bottom: 2em;
-    bottom: 2em;
-    z-index: 2;
     transition: all .5s ease-in;
 }
 
 .shell {
     opacity: 0;
-    width: 5%;
-    position: absolute;
-    bottom: 2em;
-    left: 50%;
-    z-index: 3;
     transition: opacity .5s ease-in;
 }
 
@@ -94,8 +84,6 @@ a:focus {
 }
 
 .l-fish {
-    position: sticky;
-    bottom: 5em;
     transform: translateX(100%);
     animation: swim 15s infinite both;
     transform-origin: center;
@@ -103,17 +91,6 @@ a:focus {
 
 /* https://eddyerburgh.me/create-a-css-only-flip-toggle-switch */
 
-.switch {
-    position: sticky;
-    top: 2em;
-    opacity: 0;
-  }
-
-.switch-name {
-    position: sticky;
-    top: 2.5em;
-    left: 2em;
-}
 
 .switch:focus + .toggle{
     border: 1px solid rgba(167, 205, 255, 0.5);
@@ -133,12 +110,12 @@ a:focus {
 }
 
 .round {
-  position: absolute;
-  width: 1.8em;
-  height: 1.8em;
-  margin-bottom: 0.3em;
-  margin-top: 0.1em;
-  margin-left: 0.3em;
-  fill: rgb(219, 51, 107);
-  transition: transform 0.2s ease-in;
+    position: absolute;
+    width: 1.8em;
+    height: 1.8em;
+    margin-bottom: 0.3em;
+    margin-top: 0.1em;
+    margin-left: 0.3em;
+    fill: rgb(219, 51, 107);
+    transition: transform 0.2s ease-in;
 }
