@@ -1,64 +1,20 @@
 # CSS to the Rescue @cmda-minor-web 18-19
 
-_This course is in English_
+**For this course I created an menu interactive menu page. The theme being mostly seafood.**
 
-In this three week course you are going to create an innovative, pleasurable user experience by using CSS.
+![Front-page](./docs/blue.png)
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+![Front-page](./docs/orange.png)
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+## Concept
 
-## Programm
-
-### Week 1 - 👁 C what you did there
-
-[See all the details of week 1 here](week1/).
-
-Goals of this week: 
-
-- Be inspired
-- Understand the cascade, inheritance and specificity
-- Get going!
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
-
-### Week 2 - Create Stuff, 🙃 Smile 
-
-This week’s goals: Create stuff, break stuff, and learn from each other
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away
-
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
+I wanted to create an interactive restaurant menu that mostly consisted of seafood. The page couldn't contain regular shapes so I decided to make my main shape a jellyfish. Just because I think they're pretty cool. Another restriction was that the menu had to be based on the weather, so I choose the wind-direction of Amsterdam to show how my page reacts to the weather. 
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+## Learning Process 
 
-<!-- ☝️ replace this description with a description of your own work -->
+The methodology I used to build my css structure was SMACSS. I never heard of this methodology before, so I had to dive deep into the **STOF**. 
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
+This course I learned a lot about specificity and SMACSS and other methodology's like BEM. My personal focus lay on creating a page using only css, which proved to be quite difficult because I always thought of a javascript solution first. However I was pleasantly suprised by all you can do with only css, not needing any javascript. In the end I only used javascript to fetch the wind direction and setting up some css variables. I also wanted to dive deeper into SVG animation's, since I never done this before. Although there are a lot of javascript libraries that could make smoother animations, I did come a long way to create the thing I wanted. 
 
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+I found creating interaction on my page the hardest thing to come up with. And would have loved to have more meaningfull interaction, just so I could explore the limits of only using css. Another thing that didn't work out was using ```shape-outside``` on my sections, to create a more fluid like environment. 
